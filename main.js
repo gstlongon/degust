@@ -31,6 +31,30 @@ function changeHeaderWhenScroll() {
   }
 }
 
+/* about carousel slider swiper */
+
+const Aboutswiper = new Swiper('.swiper-container-about', {
+    slidesPerView: 1,
+    pagination: {
+      el: '.swiper-pagination-about'
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    mousewheel: true,
+    keyboard: true,
+    loop: true,
+    breakpoints: {
+      767: {
+        slidesPerView: 1,
+        setWrapperSize: true,
+        loop: true
+      }
+    }
+  })
+
+
 /* Testimonials carousel slider swiper */
 const swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
@@ -57,7 +81,6 @@ const scrollReveal = ScrollReveal({
 
 scrollReveal.reveal(
   `#home .image, #home .text,
-  #about .image, #about .text,
   #services header, #services .card,
   #cardapio .cake-img , #cardapio .cardapio-cake,
   #cardapio .cardapio-obs , #cardapio .cup-img,

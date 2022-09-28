@@ -17,6 +17,8 @@
 
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="stylesheet" href="lightbox.min.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -36,6 +38,7 @@
             <li><a class="title" href="#about">Sobre</a></li>
             <li><a class="title" href="#services">Serviços</a></li>
             <li><a class="title" href="#cardapio">Cardápio</a></li>
+            <li><a class="title" href="#trabalho">Nosso Trabalho</a></li>
             <li><a class="title" href="#testimonials">Depoimentos</a></li>
             <li><a class="title" href="#contact">Contato</a></li>
           </ul>
@@ -82,10 +85,32 @@
 
       <!-- ABOUT -->
       <section class="section" id="about">
-        <div class="container grid">
-          <div class="image">
-            <img src="./assets/img/degust-about.png" alt="">
-          </div>
+        <div class="grid container">
+            <div class="container swiper">
+                <div class="swiper-container-about">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="/assets/img/fotoabout-1.jpeg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/assets/img/fotoabout-2.jpeg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/assets/img/fotoabout-3.jpeg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/assets/img/fotoabout-4.jpeg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="/assets/img/fotoabout-5.jpeg" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination-about"></div>
+                </div>
+            </div>
           <div class="text">
             <h2 class="title">Sobre nós</h2>
             <p>
@@ -167,7 +192,7 @@
                 <h3>Nossos Bolos Tradicionais</h3>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de brigadeiro, gostaria de mais informações." >
                     <p>Brigadeiro</p>
-                    <div class="">
+                    <div class="cardapio-price">
                         $70
                     </div>
                 </a>
@@ -178,13 +203,13 @@
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de dois amores, gostaria de mais informações." >
-                    <p>Dois Amores<span class="cardpio-option"></span></p>
+                    <p>Dois Amores<span class="cardapio-option"></span></p>
                     <div class="">
                         $70
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de mousse de (Maracujá, limão e chocolate), gostaria de mais informações." >
-                    <p>Mousse <span class="cardpio-option">(Maracujá, limão e chocolate)</span></p>
+                    <p>Mousse <span class="cardapio-option">(Maracujá, limão e chocolate)</span></p>
                     <div class="">
                         $70
                     </div>
@@ -223,13 +248,13 @@
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
-                    <p>Doce de Leite com Ameixa<span class="cardpio-option"></span></p>
+                    <p>Doce de Leite com Ameixa<span class="cardapio-option"></span></p>
                     <div class="">
                         $80
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Leite Condesado com Morango, gostaria de mais informações." >
-                    <p>Leite Condesado com Morango<span class="cardpio-option"></span></p>
+                    <p>Leite Condesado com Morango<span class="cardapio-option"></span></p>
                     <div class="">
                         $80
                     </div>
@@ -241,7 +266,7 @@
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Moça Cremosa com Geléia Artesanal (Morango ou Frutas Vermelhas), gostaria de mais informações." >
-                    <p>Moça Cremosa com Geléia Artesanal<span class="cardpio-option"> (Morango ou Frutas Vermelhas)</span></p>
+                    <p>Moça Cremosa com Geléia Artesanal<span class="cardapio-option"> (Morango ou Frutas Vermelhas)</span></p>
                     <div class="">
                         $80
                     </div>
@@ -268,13 +293,13 @@
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
-                    <p>Gourmet - Ninho Trufado com Morango<span class="cardpio-option"></span></p>
+                    <p>Gourmet - Ninho Trufado com Morango<span class="cardapio-option"></span></p>
                     <div class="">
                         $95
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Leite Condesado com Morango, gostaria de mais informações." >
-                    <p>Gourmet - Ninho com Nutella<span class="cardpio-option"></span></p>
+                    <p>Gourmet - Ninho com Nutella<span class="cardapio-option"></span></p>
                     <div class="">
                         $95
                     </div>
@@ -286,9 +311,60 @@
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Moça Cremosa com Geléia Artesanal (Morango ou Frutas Vermelhas), gostaria de mais informações." >
-                    <p>Gourmet - com Ganache<span class="cardpio-option"> (Morango ou Frutas Vermelhas)</span></p>
+                    <p>Gourmet - com Ganache<span class="cardapio-option"> (Morango ou Frutas Vermelhas)</span></p>
                     <div class="">
                         $95
+                    </div>
+                </a>
+            </div>
+            <div class="cardapio-cake">
+                <h3>Nossos Bolos Caseirinhos</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Bolo de Chocolate<span class="cardapio-option">aprox. 500g</span></p>
+                    <div class="">
+                        <span class="cardapio-option">a partir de</span>$15
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
+                    <p>Bolo de Cenoura<span class="cardapio-option">aprox. 600g</span></p>
+                    <div class="">
+                        <span class="cardapio-option">a partir de</span>$15
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
+                    <p>Bolo Piscina<span class="cardapio-option">aprox. 500g</span></p>
+                    <div class="">
+                        <span class="cardapio-option">a partir de</span>$22
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo de Limão<span class="cardapio-option">aprox. 400g</span></p>
+                    <div class="">
+                        $20
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Leite Condesado com Morango, gostaria de mais informações." >
+                    <p>Bolo de Laranja<span class="cardapio-option">aprox. 400g</span></p>
+                    <div class="">
+                        $15
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Moça Cremosa com Morango, gostaria de mais informações." >
+                    <p>Bolo de Milho<span class="cardapio-option">aprox. 400g</span></p>
+                    <div class="">
+                        $22
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Moça Cremosa com Geléia Artesanal (Morango ou Frutas Vermelhas), gostaria de mais informações." >
+                    <p>Bolo de Fubá<span class="cardapio-option">aprox. 400g</span></p>
+                    <div class="">
+                        $15
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Moça Cremosa com Geléia Artesanal (Morango ou Frutas Vermelhas), gostaria de mais informações." >
+                    <p>Bolo de Fubá com Goiabada<span class="cardapio-option">aprox. 400g</span></p>
+                    <div class="">
+                        $15
                     </div>
                 </a>
             </div>
@@ -301,52 +377,52 @@
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
-                    <p>Vela - Faísca<span class="cardpio-option"> (4 unidades.)</span></p>
+                    <p>Vela - Faísca<span class="cardapio-option"> (4 unidades.)</span></p>
                     <div class="">
                         $8
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
-                    <p>Vela - Vulcão <span class="cardpio-option">(Diversas cores.)</span></p>
+                    <p>Vela - Vulcão <span class="cardapio-option">(Diversas cores.)</span></p>
                     <div class="">
                         $15
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
-                    <p>Topper de Bolo<span class="cardpio-option"></span></p>
+                    <p>Topper de Bolo<span class="cardapio-option"></span></p>
                     <div class="">
-                        $20+
+                        <span class="cardapio-option">a partir de</span>$20
                     </div>
                 </a>
             </div>
             <div class="cardapio-cake cardapio-order-fifth">
                 <h3>Nossas Delicias</h3>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
-                    <p>Brigadeiro - Cento <span class="cardpio-option">(18g cada um.)</span></p>
+                    <p>Brigadeiro - Cento <span class="cardapio-option">(18g cada um.)</span></p>
                     <div class="">
                         $120
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
-                    <p>Ninho - Cento<span class="cardpio-option">(18g cada um.)</span></p>
+                    <p>Ninho - Cento<span class="cardapio-option">(18g cada um.)</span></p>
                     <div class="">
                         $120
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
-                    <p>Dois Amores<span class="cardpio-option">(18g cada um.)</span></p>
+                    <p>Dois Amores<span class="cardapio-option">(18g cada um.)</span></p>
                     <div class="">
                         $120
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
-                    <p>Bicho de Pé<span class="cardpio-option">(18g cada um.)</span></p>
+                    <p>Bicho de Pé<span class="cardapio-option">(18g cada um.)</span></p>
                     <div class="">
                         $120
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
-                    <p>Beijinho<span class="cardpio-option">(18g cada um.)</span></p>
+                    <p>Beijinho<span class="cardapio-option">(18g cada um.)</span></p>
                     <div class="">
                         $120
                     </div>
@@ -355,55 +431,581 @@
             <div class="cardapio-cake cardapio-order-sixth">
                 <h3>Nossas Delicias</h3>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
-                    <p>Brigadeiro - Gourmet <span class="cardpio-option">(22g.)</span></p>
+                    <p>Brigadeiro - Gourmet <span class="cardapio-option">(22g.)</span></p>
                     <div class="">
                         $3,5
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
-                    <p>Cupcake Recheados<span class="cardpio-option"></span></p>
+                    <p>Cupcake Recheados<span class="cardapio-option"></span></p>
                     <div class="">
                         $4,5
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
-                    <p>Cestinhas de Chocolate Recheados<span class="cardpio-option"> (Sabores diversos.)</span></p>
+                    <p>Cestinhas de Chocolate Recheados<span class="cardapio-option"> (Sabores diversos.)</span></p>
                     <div class="">
                         $3,5
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
-                    <p>Copinhos de Chocolate Recheados<span class="cardpio-option"> (Sabores diversos.)</span></p>
+                    <p>Copinhos de Chocolate Recheados<span class="cardapio-option"> (Sabores diversos.)</span></p>
                     <div class="">
                         $3,5
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
-                    <p>Mini Trufa<span class="cardpio-option"> </span></p>
+                    <p>Mini Trufa<span class="cardapio-option"> </span></p>
                     <div class="">
                         $3.8
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
-                    <p>Mini Brownie<span class="cardpio-option"></span></p>
+                    <p>Mini Brownie<span class="cardapio-option"></span></p>
                     <div class="">
                         $4
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
-                    <p>Pirulito de Chocolate<span class="cardpio-option"></span></p>
+                    <p>Pirulito de Chocolate<span class="cardapio-option"></span></p>
                     <div class="">
                         $4,9
                     </div>
                 </a>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
-                    <p>Camafeu de Nozes<span class="cardpio-option"></span></p>
+                    <p>Camafeu de Nozes<span class="cardapio-option"></span></p>
                     <div class="">
                         $3,8
                     </div>
                 </a>
             </div>
+            <div class="cardapio-cake cardapio-order-seventh">
+                <h3>Copos da Felicidade</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Copo Kinder Bueno<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $22
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
+                    <p>Copo Kit Kat<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $20
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
+                    <p>Copo Ferrero Rocher<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $20
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Copo de Morango<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $20
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Copo de Oreo<span class="cardapio-option"> </span></p>
+                    <div class="">
+                        $20
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Copo explosao de Uva Verde<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $20
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Copo de Prestígio<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $20
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Copo de Merengue<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $20
+                    </div>
+                </a>
+            </div>
+            <div class="cardapio-cake cardapio-order-seventh">
+                <h3>Cones Trufados</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Cone trufado Kinder Bueno<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $13
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
+                    <p>Cone trufado Ferrero Rocher<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $13
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
+                    <p>Cone trufado de Paçoca<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $13
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Cone trufado Brigadeiro<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $13
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Cone trufado Limão<span class="cardapio-option"> </span></p>
+                    <div class="">
+                        $13
+                    </div>
+                </a>
+            </div>
+            <div class="cardapio-cake cardapio-order-seventh">
+                <h3>Novidades da Casa</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Bombom Aberto de Uva<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $15
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bombom Aberto de Morango<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $17
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
+                    <p>Coxinha de Brownie com Morango e Nutella<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $12
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
+                    <p>Fatia Supreme Red Velvet Com Sorvete<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $35+
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Tortinha Cheesecake com Geléia de Morango<span class="cardapio-option"> </span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Coxinha de Morango com Brigadeiro de Ninho<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $18
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Coxinha de Morango com Brigadeiro<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $18
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Surpresinha de uva verde<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $14
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Chocolate quente cremoso<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $18
+                    </div>
+                </a>
+            </div>
+            <div class="cardapio-cake cardapio-order-seventh">
+                <h3>Fatias de Bolo</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Fatia Red Velvet Com Cream Cheese<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $20
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
+                    <p>Fatia Supreme - Massa de Pão de Ló<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $15
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
+                    <p>Fatia Supreme- Red Velvet<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $17
+                    </div>
+                </a>
+                <h3 class="cardapio-subtitle">Sobremesas</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Banofe no pote<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Morango do Nordeste<span class="cardapio-option"> </span></p>
+                    <div class="">
+                        $14
+                    </div>
+                </a>
+            </div>
+            <div class="cardapio-cake cardapio-order-seventh">
+                <h3>Bolos de Pote aprox. 250g</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Bolo no pote - Brigadeiro com Morango<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
+                    <p>Bolo no pote - Ninho com Morango<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
+                    <p>Bolo no pote - Brigadeiro<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo no pote - Choconinho<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo no pote - Maracujá Com Chocolate<span class="cardapio-option"> </span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo no pote - Ninho com Brigadeiro<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo no pote - Maracujá com Massa Branca<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo no pote - Ninho Trufado com Nutella<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+            </div>
+            <div class="cardapio-cake cardapio-order-seventh">
+                <h3>Os Mais Pedidos</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Fatia de palha italiana<span class="cardapio-option"></span></p>
+                    <div class="">
+                        <span class="cardapio-option">a partir de</span>$7,5
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Marmitinha da Felicidade<span class="cardapio-option"></span></p>
+                    <div class="">
+                        <span class="cardapio-option">a partir de</span>$22,4
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Tortinha de Limão<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $6
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
+                    <p>Tortinha de Maracujá<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $8
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
+                    <p>Tortinha de Ninho com Nutella<span class="cardapio-option"></span></p>
+                    <div class="">
+                        <span class="cardapio-option"></span>$12
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo Mini Vulcão<span class="cardapio-option"> </span></p>
+                    <div class="">
+                        <span class="cardapio-option">a partir de</span> $12
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Fatia de brownie<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $7,5
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Coxinha de Morango com Brigadeiro<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $18
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Surpresinha de uva verde<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $14
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Chocolate quente cremoso<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $18
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Brownie com cobertura<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $14
+                    </div>
+                </a>
+            </div>
+            <div class="cardapio-cake cardapio-order-seventh">
+                <h3>Bolos de Pote aprox. 250g</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Bolo no pote - Cenoura com brigadeiro<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $12
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
+                    <p>Bolo no pote - Choconinho com Morango<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $12
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
+                    <p>Bolo no pote - Ninho com Nutella e Morango<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $13
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo no pote - Especial Red Velvet e Cream Cheese<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $15
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo no pote - Ninho<span class="cardapio-option"> </span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo no pote - Prestígio<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo no pote - Limão Suíço<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bolo no pote - Sensação<span class="cardapio-option"></span></p>
+                    <div class="">
+                        $11
+                    </div>
+                </a>
+            </div>
+            <div class="cardapio-cake cardapio-order-seventh">
+                <h3>Presenteáveis</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Bento Cake<span class="cardapio-option">(350g)</span></p>
+                    <div class="">
+                        <span class="cardapio-option"></span>$35,9
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Bento Cake<span class="cardapio-option">(500g)</span></p>
+                    <div class="">
+                        <span class="cardapio-option"></span>$60
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bento Cake Coração<span class="cardapio-option">(350g)</span></p>
+                    <div class="">
+                        $51,9
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
+                    <p>Mini nacked<span class="cardapio-option"></span></p>
+                    <div class="">
+                        <span class="cardapio-option">a partir de</span>$50
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
+                    <p>Caixa Coração Florido<span class="cardapio-option">10 Brigadeiros Gourmet</span></p>
+                    <div class="">
+                        <span class="cardapio-option"></span>$45
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Caixa Você me completa<span class="cardapio-option">08 Brigadeiros gourmet</span></p>
+                    <div class="">
+                        <span class="cardapio-option">a partir de</span> $35
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Caixa - (Te Amo)<span class="cardapio-option">12 brigadeiros + Docinhos</span></p>
+                    <div class="">
+                        $35
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Mimo para presente<span class="cardapio-option">4 brigadeiros, 4 beijinhos e 4 ninhos</span></p>
+                    <div class="">
+                        $30
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Festa na caixa<span class="cardapio-option">Item Sob Encomenda (somente serão aceitos pedidos agendado com no mínimo 24hr de antecedência.) Festa na caixa para 1 pessoa 1 Bolo Naked Cake 500 gr 12 Docinhos (Opcional frase Eu Te Amo) 2 Coca Cola 310 ml 2 Taça de acrílico 1 Bexiga de Coração 1 kit descartáveis para 2 Pessoas 1 Caixa decorada.</span></p>
+                    <div class="">
+                        $195
+                    </div>
+                </a>
+               
+            </div>
+            <div class="cardapio-cake cardapio-order-seventh">
+                <h3>Bebidas</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Água Mineral com Gás Cristal<span class="cardapio-option">(510ml)</span></p>
+                    <div class="">
+                        <span class="cardapio-option"></span>$3,5
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Ninho com Morango, gostaria de mais informações." >
+                    <p>Água Mineral sem Gás Cristal Gold Garrafa <span class="cardapio-option">(510ml)</span></p>
+                    <div class="">
+                        <span class="cardapio-option">(500g)</span>$2,5
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Coca-Cola Original<span class="cardapio-option">(1L)</span></p>
+                    <div class="">
+                        $9
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
+                    <p>Fanta Laranja Lata<span class="cardapio-option">(220ml)</span></p>
+                    <div class="">
+                        <span class="cardapio-option"></span>$4
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Creme Branco com Limão Siciliano, gostaria de mais informações." >
+                    <p>Sprite Lata<span class="cardapio-option">(220ml)</span></p>
+                    <div class="">
+                        <span class="cardapio-option"></span>$4
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Coca-Cola Café Expresso<span class="cardapio-option">(220ml)</span></p>
+                    <div class="">
+                        <span class="cardapio-option"></span>$4
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Maracujá com Chocolate, gostaria de mais informações." >
+                    <p>Fanta Uva Lata<span class="cardapio-option">(220ml)</span></p>
+                    <div class="">
+                        <span class="cardapio-option"></span>$4
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Guaraná Antartica Lata<span class="cardapio-option">(350ml)</span></p>
+                    <div class="">
+                        $6
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Gatorade Pet Laranja<span class="cardapio-option">(500ml)</span></p>
+                    <div class="">
+                        $8,9    
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Gatorade Pet Tangerina<span class="cardapio-option">(500ml)</span></p>
+                    <div class="">
+                        $8,9    
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Isotônico de Frutas Cítricas Gatorade<span class="cardapio-option">(500ml)</span></p>
+                    <div class="">
+                        $8,9    
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Refrigerante Guaraná Antarctica<span class="cardapio-option">(1,5L)</span></p>
+                    <div class="">
+                        $10 
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Suco Del Valle<span class="cardapio-option">Diversos sabores. (250ml)</span></p>
+                    <div class="">
+                        $4 
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Bebida Sabor Laranja Vigor<span class="cardapio-option">(200ml)</span></p>
+                    <div class="">
+                        $4
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Energético Flying Horse Lata<span class="cardapio-option">(473ml)</span></p>
+                    <div class="">
+                        $12    
+                    </div>
+                </a>
+            </div>
+            <div class="cardapio-cake cardapio-order-seventh">
+                <h3>Sua Mãe Merece</h3>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Caixa especial Dia das mães 2 Corações<span class="cardapio-option">01 Coração lapidado, trufado de Ninho. (peso aprox. 65gr) 01 Coração lapidado trufado de brigadeiro. (peso aprox. 65gr) 04 docinhos gourmet com e escrita Mãe (peso aprox. Cada docinho 22gr ) Produzidos com chocolate nobre.</span></p>
+                    <div class="">
+                        $50
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Caixa especial Dia das mães 1 Coração<span class="cardapio-option"> 01 Coração lapidado, trufado de Ninho ou Brigadeiro. (peso aprox. 175gr) 07 docinhos gourmet com e escrita Mãe (peso aprox. Cada docinho 22gr ) Produzidos com chocolate nobre.</span></p>
+                    <div class="">
+                        $65,9
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Caixa Melhor Mãe Do Mundo<span class="cardapio-option">03 Brigadeiros Gourmet 03 Brigadeiro de Ninho Com Nutella ( peso aprox. Cada unidade 22gr)</span></p>
+                    <div class="">
+                        $35
+                    </div>
+                </a>
+                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de Doce de Leite com Ameixa, gostaria de mais informações." >
+                    <p>Cesta Mamãe Feliz<span class="cardapio-option">1 Bolo naked cake 350 gr 1 Brownie 1 Pao de mel 1 Palha italiana 1 Suco dell vale 3 Bombom Ferrero Rocher 1 Caixa com 8 Brigadeiros (Peso aproximado 18gr cada)</span></p>
+                    <div class="">
+                        $30
+                    </div>
+                </a>
+                <img class="carapio-logo" src="/assets/svg/dgustlogo.svg" alt="">
+            </div>
             <div class="cardapio-obs cardapio-order-seventh">
+                <p class="cardapio-atencao">OS VALORES DESTE CARDÁPIO SÃO VÁLIDOS APENAS PARA PEDIDOS VIA WHATSAPP E CONSUMO NA LOJA.</p>
                 <h4>Pagamentos serão feitos das seguintes maneiras:</h4>
                 Forma integral, ou com adiantamento de 50% no ato do pedido e 50% na esntrega da encomenda.</p>
                 <h4>Formas de Pagamento</h4>
@@ -412,6 +1014,8 @@
                     <li>Cartão de Débito/Crédito</li>
                     <li>Dinheiro</li>
                 </ul>
+            </div>
+            <div class="cardapio-obs cardapio-order-seventh">
                 <h4>Atenção!</h4>
                 <p>Para bolo os decorados com toppers, os pedidos devem ser feitos com 24h de antecedência.</p>
                 <h4>Recadinho da nossa confeiteira Josy</h4>
@@ -426,6 +1030,84 @@
       </section>
 
       <div class="divider-2"></div>
+
+      <section class="section" id="trabalho">
+        <div class="container grid">
+            <h2 class="title">Nosso Trabalho</h2>
+            <div class="galeria grid">
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado2.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado2.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado3.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado3.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado4.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado4.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado5.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado5.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado6.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado6.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado7.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado7.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado10.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado10.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado11.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado11.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado12.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado-12.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado13.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado13.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado14.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado14.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-decorado-15.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-decorado-15.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-cenoura.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Cenoura">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-cenoura.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolos-caserinho.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Limão">
+                    <img class="gallery-img" src="./assets/img-doces/bolos-caserinho.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-vulcao.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Vulcão">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-vulcao.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-caserinho-fuba-goiabada.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Fuba com Goiabada">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-caserinho-fuba-goiabada.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolo-bentocake1.jpeg" data-lightbox="mygallery" data-title="Bolo Bento Cake">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-bentocake1.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolobentocake.jpeg" data-lightbox="mygallery" data-title="Bolo Bento Cake">
+                    <img class="gallery-img" src="./assets/img-doces/bolobentocake.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolobentocake4.jpeg" data-lightbox="mygallery" data-title="Bolo Bento Cake">
+                    <img class="gallery-img" src="./assets/img-doces/bolobentocake4.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolobentocake5.jpeg" data-lightbox="mygallery" data-title="Bolo Bento Cake">
+                    <img class="gallery-img" src="./assets/img-doces/bolobentocake5.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolobentocake6.jpeg" data-lightbox="mygallery" data-title="Bolo Bento Cake">
+                    <img class="gallery-img" src="./assets/img-doces/bolobentocake6.jpeg" alt="">
+                </a>
+                <a class="galley__item" href="./assets/img-doces/bolobentocake6.jpeg" data-lightbox="mygallery" data-title="Bolo Bento Cake">
+                    <img class="gallery-img" src="./assets/img-doces/bolo-naked-cake.jpeg" alt="">
+                </a>
+            </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
 
 
       <!-- TESTIMONIALS -->
@@ -553,7 +1235,8 @@
 
     <!-- scrollreveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
-
+    <!-- lightbox -->
+    <script src="lightbox-plus-jquery.min.js"></script>
     <!-- main.js -->
     <script src="main.js"></script>
   </body>
