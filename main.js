@@ -84,6 +84,7 @@ scrollReveal.reveal(
   #services header, #services .card,
   #cardapio .cake-img , #cardapio .cardapio-cake,
   #cardapio .cardapio-obs , #cardapio .cup-img,
+  #trabalho .galley__item ,
   #testimonials header, #testimonials .testimonials,
   #contact .text, #contact .links,
   footer .brand, footer .social
