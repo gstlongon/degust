@@ -82,7 +82,6 @@ const scrollReveal = ScrollReveal({
 scrollReveal.reveal(
   `#home .image, #home .text,
   #services header, #services .card,
-  #cardapio .cake-img , #cardapio .cardapio-cake,
   #cardapio .cardapio-obs , #cardapio .cup-img,
   #trabalho .galley__item ,
   #testimonials header, #testimonials .testimonials,
