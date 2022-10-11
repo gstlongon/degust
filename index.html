@@ -168,7 +168,11 @@
       <section class="section" id="cardapio">
           <h2 class="title cardapio-title">Nosso Cardápio</h2>
         <div class="container grid">
-            <img class="cake-img" src="./assets/img/bolo-cardapio.png" alt="">
+            <div class="cadapio-animation">
+                <img class="cake-img" src="./assets/img/img-cardapio.png" alt="">
+                <img class="carapio-logo" src="./assets/svg/dgustlogo.svg" alt="">
+                <!-- <img class="cake-img2" src="./assets/img/img-cardapio2.png" alt=""> -->
+            </div>
             <div class="cardapio-cake cardapio-order-first">
                 <h3>Nossos Bolos Tradicionais</h3>
                 <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo bolo de brigadeiro, gostaria de mais informações." >
@@ -300,81 +304,206 @@
             </div>
             <div class="cardapio-cake">
                 <h3>Nossos Bolos Caseirinhos</h3>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Chocolate, gostaria de mais informações." >
-                    <p>Bolo de Chocolate<span class="cardapio-option">aprox. 500g</span></p>
-                    <div class="">
-                        <span class="cardapio-option"></span>$15
+                <div class="cardapio-item">
+                    <p>Bolo de Chocolate</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">Delicioso e fofíssimo bolo caseiro de chocolate feito com cacau 50% (aprox. 500g)</span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-caseirinho-chocolate.png" data-lightbox="mygallery" data-title="Bolo Caserinho Chocolate">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-caseirinho-chocolate.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Cenoura, gostaria de mais informações." >
-                    <p>Bolo de Cenoura<span class="cardapio-option">aprox. 600g</span></p>
-                    <div class="">
-                        <span class="cardapio-option"></span>$15
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Chocolate, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$15</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) Piscina, gostaria de mais informações." >
-                    <p>Bolo Piscina<span class="cardapio-option">aprox. 500g</span></p>
-                    <div class="">
-                        <span class="cardapio-option"></span>$22
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo de Cenoura</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">Delicioso e fofíssimo bolo caseiro de cenoura, sem conservantes, sem aromatizante artificial, com cenouras de verdade. (aprox. 500g)</span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-cenoura.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Cenoura">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-cenoura.jpeg" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
-                    <p>Bolo de Limão<span class="cardapio-option">aprox. 400g</span></p>
-                    <div class="">
-                        $20
+                        <div class="cardapio-bottom">
+                            <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Chocolate, gostaria de mais informações." >
+                                Fazer Pedido
+                            </a>
+                            <span class="cardapio-price">$22,5</span>
+                        </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo Piscina</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e fofíssimo bolo caseiro sem conservantes, sem aromatizante artificial.
+                            Com uma deliciosa calda de Chocolate por cima. (aprox. 500g)</span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-piscina.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-piscina.jpeg" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Laranja, gostaria de mais informações." >
-                    <p>Bolo de Laranja<span class="cardapio-option">aprox. 400g</span></p>
-                    <div class="">
-                        $15
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo Piscina, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$33,8</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Milho, gostaria de mais informações." >
-                    <p>Bolo de Milho<span class="cardapio-option">aprox. 400g</span></p>
-                    <div class="">
-                        $22
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo de Limão</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e fofíssimo bolo caseiro de limão, com uma cobertura de mousse de limão, simplesmente irresistível.
+                            Sem conservantes, sem aromatizante artificial. (aprox. 500g)</span>
+                        <a class="galley__item" href="./assets/img-doces/bolos-caserinho-limao.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolos-caserinho-limao.jpeg" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Fubá, gostaria de mais informações." >
-                    <p>Bolo de Fubá<span class="cardapio-option">aprox. 400g</span></p>
-                    <div class="">
-                        $15
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$30,9</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Fubá com Goiabada, gostaria de mais informações." >
-                    <p>Bolo de Fubá com Goiabada<span class="cardapio-option">aprox. 400g</span></p>
-                    <div class="">
-                        $15
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo de Milho</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Bolo caseiro de milho extremamente saboroso e cremoso. (aprox. 400g)</span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-caseirinho-milho.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-caseirinho-milho.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="cardapio-cake cardapio-order-fourth">
-                <h3>Nossa Decoração</h3>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei por as Velas - Palitos, gostaria de mais informações." >
-                    <p>Velas - Palitos</p>
-                    <div class="">
-                        $8
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$21,9</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei por a Vela - Faísca, gostaria de mais informações." >
-                    <p>Vela - Faísca<span class="cardapio-option"> (4 unidades.)</span></p>
-                    <div class="">
-                        $8
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo de Fubá com Goiabada</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Tradicional bolo de fubá, com pedaços de goiabada na massa!. (aprox. 500g)</span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-caserinho-fuba-goiabada.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-caserinho-fuba-goiabada.jpeg" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei por a Vela - Vulcão, gostaria de mais informações." >
-                    <p>Vela - Vulcão <span class="cardapio-option">(Diversas cores.)</span></p>
-                    <div class="">
-                        $15
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$28,9</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei por o Topper de Bolo, gostaria de mais informações." >
-                    <p>Topper de Bolo<span class="cardapio-option"></span></p>
-                    <div class="">
-                        <span class="cardapio-option"></span>$20
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo Vulcão Cenoura com Calda de Brigadeiro</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e fofíssimo bolo caseiro de chocolate feito com cacau 50% e muita calda de brigadeiro, esse é o verdadeiro bolo vulcão de chocolate com calda de brigadeiro. (aprox. 700g)</span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-vulcao-com-calda.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-vulcao-com-calda.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$51,9</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo Vulcão Chocolate com Calda de Brigadeiro</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e fofíssimo bolo caseiro de chocolate feito com cacau 50% e muita calda de brigadeiro, esse é o verdadeiro bolo vulcão de chocolate com calda de brigadeiro. (aprox. 700g)</span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-vulcao-com-calda.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-vulcao-com-calda.png" alt="">
+                            </div>                        
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$51,9</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo de Iorgute com Cobertura de Ninho</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso bolo caseiro sabor iogurte! Muito fofinho e saboroso!
+                            Com uma deliciosa cobertura de Ninho simplesmente espetacular!. (aprox. 600g)</span>
+                        <a class="galley__item" href="./assets/svg/icon-no-img.svg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="icon-no-img" src="./assets/svg/icon-no-img.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$32,9</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo de Fubá</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Bolo caseiro tradicional de fubá extremamente saboroso e cremoso. (aprox. 400g)</span>
+                            <a class="galley__item" href="./assets/svg/icon-no-img.svg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                                <div class="cardapio-img">
+                                    <img class="icon-no-img" src="./assets/svg/icon-no-img.svg" alt="">
+                                </div>
+                            </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$23,9</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo de Laranja</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e fofíssimo bolo caseiro de laranja, simplesmente irresistível.
+                            Sem conservantes, sem aromatizante artificial. (aprox. 400g)</span>
+                        <a class="galley__item" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="icon-no-img" src="./assets/svg/icon-no-img.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$15</span>
+                    </div>
+                </div>
             </div>
             <div class="cardapio-cake cardapio-order-fifth">
                 <h3>Nossas Delicias</h3>
@@ -409,387 +538,1140 @@
                     </div>
                 </a>
             </div>
-            <div class="cardapio-cake cardapio-order-sixth">
-                <h3>Nossas Delicias</h3>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Brigadeiro - Gourmet(unidade), gostaria de mais informações." >
-                    <p>Brigadeiro - Gourmet <span class="cardapio-option">(22g.)</span></p>
-                    <div class="">
-                        $3,5
-                    </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Cupcake Recheado, gostaria de mais informações." >
-                    <p>Cupcake Recheado<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $4,5
-                    </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Cestinhas de Chocolate Recheado(sabor), gostaria de mais informações." >
-                    <p>Cestinha de Chocolate Recheado<span class="cardapio-option"> (Sabores diversos.)</span></p>
-                    <div class="">
-                        $3,5
-                    </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Copinho de Chocolate Recheado(sabor), gostaria de mais informações." >
-                    <p>Copinho de Chocolate Recheado<span class="cardapio-option"> (Sabores diversos.)</span></p>
-                    <div class="">
-                        $3,5
-                    </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Mini Trufa, gostaria de mais informações." >
-                    <p>Mini Trufa<span class="cardapio-option"> </span></p>
-                    <div class="">
-                        $3.8
-                    </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Mini Brownie, gostaria de mais informações." >
-                    <p>Mini Brownie<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $4
-                    </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Pirulito de Chocolate, gostaria de mais informações." >
-                    <p>Pirulito de Chocolate<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $4,9
-                    </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Camafeu de Nozes, gostaria de mais informações." >
-                    <p>Camafeu de Nozes<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $3,8
-                    </div>
-                </a>
-            </div>
             <div class="cardapio-cake cardapio-order-seventh">
                 <h3>Copos da Felicidade</h3>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Copo Kinder Bueno, gostaria de mais informações." >
-                    <p>Copo Kinder Bueno<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $22
+                <div class="cardapio-item">
+                    <p>Copo Ferrero Rocher</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            A irreverencia do sabor do creme de Ferrero Rocher em um copo de pura felicidade.
+                            Composto por camadas de Brownie, chocolate meio amargo, creme de Nutella, creme branco trufado, amendoim e meio Ferrero Rocher.</span>
+                        <a class="galley__item" href="./assets/img-doces/copo-felicidade-ferrero.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/copo-felicidade-ferrero.jpeg" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Copo Kit Kat, gostaria de mais informações." >
-                    <p>Copo Kit Kat<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $20
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$30,6</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Copo Ferrero Rocher, gostaria de mais informações." >
-                    <p>Copo Ferrero Rocher<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $20
+                </div>
+                <div class="cardapio-item">
+                    <p>Copo Kit-Kat</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            É muito mais que um copo, é a felicidade personificada em forma de doce que lhe trás prazer a cada colherada.
+                            Composto por camadas de Brownie, ganache de chocolate meio amargo, Mousse de chocolate, creme de Nutella e pedaços de Kit Kat</span>
+                        <a class="galley__item" href="./assets/img-doces/copo-kitkat.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/copo-kitkat.jpeg" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Copo de Morango, gostaria de mais informações." >
-                    <p>Copo de Morango<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $20
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$30,6</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Copo de Oreo, gostaria de mais informações." >
-                    <p>Copo de Oreo<span class="cardapio-option"> </span></p>
-                    <div class="">
-                        $20
+                </div>
+                <div class="cardapio-item">
+                    <p>Copo Explosão Uva Verde</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Camadas de creme de Ninho, com massa pão de ló, uvas verde sem semente, Mousse de Ninho e Chantily.
+                            Uvas frescas, saudável e regional.</span>
+                        <a class="galley__item" href="./assets/img-doces/copo-felicidade-explosaouva.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/copo-felicidade-explosaouva.jpeg" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Copo explosao de Uva Verde, gostaria de mais informações." >
-                    <p>Copo explosao de Uva Verde<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $20
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$30,5</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Copo de Prestígio, gostaria de mais informações." >
-                    <p>Copo de Prestígio<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $20
+                </div>
+                <div class="cardapio-item">
+                    <p>Copo de Morango</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Camadas de brownie, creme de Ninho, ganache de chocolate, Ouro Branco e pedaços de morango.</span>
+                        <a class="galley__item" href="./assets/img-doces/copo-felicidade-morango.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/copo-felicidade-morango.jpeg" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Copo de Merengue, gostaria de mais informações." >
-                    <p>Copo de Merengue<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $20
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$30,5</span>
                     </div>
-                </a>
+                </div>
+                <div class="cardapio-item">
+                    <p>Copo Oreo</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Camadas de creme moça com Oreo, brownie e ganache de chocolate.</span>
+                        <a class="galley__item" href="./assets/img-doces/copo-felicidade-oreo.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/copo-felicidade-oreo.jpeg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$33,9</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Copo Prestígio</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Camadas de creme de prestigio, recheio de brigadeiro, brownie e ganache de chocolate.</span>
+                        <a class="galley__item" href="./assets/img-doces/copo-prestigio.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/copo-prestigio.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$26,9</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Copo Kinder Bueno</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Camadas de chocolate meio amargo, creme choco-Kinder, brownie com creme-Kinder, Nutella, e dois pedaços de Kinder bueno.</span>
+                        <a class="galley__item" href="./assets/img-doces/copo-prestigio.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/copo-felicidade-kinderbueno.jpeg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$30,6</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Copo Merengue de Morango</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Camada de moça cremosa, brownie, suspiro, geleia de morango artesanal, creme de Ninho.</span>
+                        <a class="galley__item" href="./assets/img-doces/copo-merengue.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/copo-merengue.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$28,5</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Copo Tropical</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/copo-merengue.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/copo-tropical.jpeg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$--</span>
+                    </div>
+                </div>
             </div>
             <div class="cardapio-cake cardapio-order-seventh">
                 <h3>Cones Trufados</h3>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Cone trufado Kinder Bueno, gostaria de mais informações." >
-                    <p>Cone trufado Kinder Bueno<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $13
+                <div class="cardapio-item">
+                    <p>Cone trufado Ferrero Rocher</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Deliciosa e crocante casquinha de sorvete, trufadas com chocolate nobre e um maravilhoso recheio de Brigadeiro de panela trufado de Nutella, e amendoim granulado, totalmente artesanal.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/cone-ferrero.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/cone-ferrero.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Cone trufado Ferrero Rocher, gostaria de mais informações." >
-                    <p>Cone trufado Ferrero Rocher<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $13
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$13</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Cone trufado de Paçoca, gostaria de mais informações." >
-                    <p>Cone trufado de Paçoca<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $13
+                </div>
+                <div class="cardapio-item">
+                    <p>Cone trufado Kinder Bueno</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Deliciosa e crocante casquinha de sorvete, trufadas com chocolate nobre e um maravilhoso recheio de Ninho de panela trufado e ganache chocolate meio amargo totalmente artesanal.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/cone-trufado.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/cone-trufado.jpeg" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Cone trufado Brigadeiro, gostaria de mais informações." >
-                    <p>Cone trufado Brigadeiro<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $13
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$13</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Cone trufado Limão, gostaria de mais informações." >
-                    <p>Cone trufado Limão<span class="cardapio-option"> </span></p>
-                    <div class="">
-                        $13
+                </div>
+                <div class="cardapio-item">
+                    <p>Cone trufado Limão</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Deliciosa e crocante casquinha de sorvete, trufadas com chocolate nobre e um maravilhoso recheio de brigadeiro de limão totalmente artesanal.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/cone-3.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/cone-3.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$13</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Cone trufado de Paçoca</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Deliciosa e crocante casquinha de sorvete, trufadas com chocolate nobre e um maravilhoso recheio de creme de paçoca totalmente artesanal.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/cone-3.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/cone-3.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$13</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Cone trufado Raffaello</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Deliciosa e crocante casquinha de sorvete, trufadas com chocolate branco nobre e um maravilhoso recheio de creme trufado com chocolate branco e coco, e um bombom Raffaello. Totalmente artesanal.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/cone-3.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/cone-3.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$19</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Cone trufado Brigadeiro</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Deliciosa e crocante casquinha de sorvete, trufadas com chocolate nobre e um maravilhoso recheio de brigadeiro de panela totalmente artesanal.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/cone-3.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/cone-3.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$19</span>
+                    </div>
+                </div>
             </div>
             <div class="cardapio-cake cardapio-order-seventh">
-                <h3>Novidades da Casa</h3>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bombom Aberto de Uva, gostaria de mais informações." >
-                    <p>Bombom Aberto de Uva<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $15
+                <h3>Linha Zero Lactose</h3>
+                <div class="cardapio-item">
+                    <p>Bolo Mini Vulcão ***100% Zero Lactose***</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e irresistível mini bolo caseirinho, com uma massa bem leve e muito fofinha. Esta gostosura pode ser na massa de chocolate ou de cenoura.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-minivulcao.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-minivulcao.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bombom Aberto de Morango, gostaria de mais informações." >
-                    <p>Bombom Aberto de Morango<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $17
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$18,9</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Coxinha de Brownie com Morango e Nutella, gostaria de mais informações." >
-                    <p>Coxinha de Brownie com Morango e Nutella<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $12
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo Cenoura ***100% Zero Lactose***</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e fofíssimo bolo caseiro de cenoura, sem conservantes, sem aromatizante artificial, Zero Lactose feito com cenouras frescas.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-cenoura.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-cenoura.jpeg" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Fatia Supreme Red Velvet Com Sorvete, gostaria de mais informações." >
-                    <p>Fatia Supreme Red Velvet Com Sorvete<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $35+
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$24,9</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Tortinha Cheesecake com Geléia de Morango, gostaria de mais informações." >
-                    <p>Tortinha Cheesecake com Geléia de Morango<span class="cardapio-option"> </span></p>
-                    <div class="">
-                        $11
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo de Chocolate ***100% Zero Lactose***</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e fofíssimo bolo caseiro de chocolate feito com cacau 50% ****Zero Lactose****
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-cenoura.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-caseirinho-chocolate.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Coxinha de Morango com Brigadeiro de Ninho, gostaria de mais informações." >
-                    <p>Coxinha de Morango com Brigadeiro de Ninho<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $18
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$24,9</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Coxinha de Morango com Brigadeiro, gostaria de mais informações." >
-                    <p>Coxinha de Morango com Brigadeiro<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $18
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo vulcão Chocolate calda Brigadeiro ***100% Zero Lactose***</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e fofíssimo bolo caseiro de chocolate feito com cacau 50% e muita calda de brigadeiro, esse é o verdadeiro bolo vulcão de chocolate com calda de brigadeiro.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-vulcao-com-calda.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-vulcao-com-calda.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Surpresinha de uva verde, gostaria de mais informações." >
-                    <p>Surpresinha de uva verde<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $14
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$56,9</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Chocolate quente cremoso, gostaria de mais informações." >
-                    <p>Chocolate quente cremoso<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $18
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo Vulcão Cenoura calda Brigadeiro ***100% Zero Lactose***</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e fofíssimo bolo caseiro de cenoura, sem conservantes, sem aromatizante artificial, feitos com cenouras frescas, e muita calda de brigadeiro, este é o verdadeiro bolo de cenoura vulcão. 
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-vulcao-com-calda.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-vulcao-com-calda.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$56,9</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo de Limão ***100% Zero Lactose***</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e fofíssimo bolo caseiro de limão, com uma cobertura de mousse de limão, simplesmente irresistível. Sem conservantes, sem aromatizante artificial.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/bolos-caserinho-limao.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolos-caserinho-limao.jpeg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$36,9</span>
+                    </div>
+                </div> 
+                <div class="cardapio-item">
+                    <p>Bolo de pote Cenoura com Brigadeiro ***100% Zero Lactose***</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Sabe aquele bolo de cenoura com calda de brigadeiro que tanto amamos? A D'gust Confeitaria traz até você a nova versão do bolo de cenoura com chocolate, agora em forma de bolo de pote, Você não resistira em comer um só. 
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-cenoura.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-cenoura.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$20</span>
+                    </div>
+                </div>  
+                <div class="cardapio-item">
+                    <p>Bolo de pote Brigadeiro com Morango ***100% Zero Lactose***</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de chocolate, recheio de brigadeiro de panela e pedaços de morango com granulado tradicional.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-brigadeiro-morango.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-brigadeiro-morango.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$20</span>
+                    </div>
+                </div> 
+                <div class="cardapio-item">
+                    <p>Bolo de pote Ninho com Morango ***100% Zero Lactose***</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa branca de pão de ló com um maravilhoso recheio de Ninho e pedaços de morangos frescos.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-ninho-morango-nutella.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-ninho-morango-nutella.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$20</span>
+                    </div>
+                </div> 
+                <div class="cardapio-item">
+                    <p>Bolo de pote Brigadeiro ***100% Zero Lactose***</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de chocolate, recheio de brigadeiro de panela zero lactose.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-brigadeiro.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-brigadeiro.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$20</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo de pote Ninho ***100% Zero Lactose***</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de pão de ló com o Original recheio de Ninho simplesmente fabuloso.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-ninho.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-ninho.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$20</span>
+                    </div>
+                </div>      
             </div>
             <div class="cardapio-cake cardapio-order-seventh">
-                <h3>Fatias de Bolo</h3>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Fatia Red Velvet Com Cream Cheese, gostaria de mais informações." >
-                    <p>Fatia Red Velvet Com Cream Cheese<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $20
+                <h3>Os Mais Pedidos</h3>
+                <div class="cardapio-item">
+                    <p>Fatia de Palha Italiana</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Um delicioso e saboroso pedaço de Palha Italiana, produzida com o melhor brigadeiro que você já comeu na vida e pedaços de biscoito, com um toque especial da confeitaria mais querida da região.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/fatia-palha.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/fatia-palha.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Fatia Supreme - Massa de Pão de Ló, gostaria de mais informações." >
-                    <p>Fatia Supreme - Massa de Pão de Ló<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $15
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$7,5</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Fatia Supreme- Red Velvet, gostaria de mais informações." >
-                    <p>Fatia Supreme- Red Velvet<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $17
+                </div> 
+                <div class="cardapio-item">
+                    <p>Kit 4 Docinhos</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            2 Brigadeiros chocolate 1 Brigadeiro Ninho (sem Nutella) 1 Brigadeiro Ninho com Oreo Cada docinho tem em média 22 gramas (Imagem real de produtos similares ao kit)
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/kit-4-docinhos.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/kit-4-docinhos.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <h3 class="cardapio-subtitle">Sobremesas</h3>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Banofe no pote, gostaria de mais informações." >
-                    <p>Banofe no pote<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $11
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$14</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Morango do Nordeste, gostaria de mais informações." >
-                    <p>Morango do Nordeste<span class="cardapio-option"> </span></p>
-                    <div class="">
-                        $14
+                </div> 
+                <div class="cardapio-item">
+                    <p>Pão de Mel</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Uma experiencia Agradável e surpreendente a cada mordida uma combinação perfeita de sabores, dosadas com muito amor e carinho dentro de um só Pão De Mel uma massa leve com um sutil toque de cravo e canela, recheados com doce de leite ou brigadeiro e coberto com uma generosa camada de chocolate.
+                        </span>
+                        <a class="galley__item" href="./assets/marmitinha-felicidade.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/marmitinha-felicidade.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$10</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Tortinha de Limão</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de bolacha maisena, creme de limão ,chantilly e raspa de limão.
+                        </span>
+                        <a class="galley__item" href="./assets/marmitinha-felicidade.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/marmitinha-felicidade.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$6</span>
+                    </div>
+                </div>  
+                <div class="cardapio-item">
+                    <p>Tortinha de Maracujá</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de bolacha maisena, creme de maracujá, chantilly e geléia de maracuja.
+                        </span>
+                        <a class="galley__item" href="./assets/marmitinha-felicidade.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/marmitinha-felicidade.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$8</span>
+                    </div>
+                </div>  
+                <div class="cardapio-item">
+                    <p>Tortinha de Ninho com Nutella</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de bolacha maizena, creme de Ninho e ganache de Nutella.
+                        </span>
+                        <a class="galley__item" href="./assets/svg/icon-no-img.svg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/svg/icon-no-img.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$12</span>
+                    </div>
+                </div> 
+                <div class="cardapio-item">
+                    <p>Bolo Mini Vulcão</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Delicioso e irresistível mini bolo caseirinho, com uma massa bem leve e muito fofinha. Esta gostosura pode ser na massa de chocolate ou de cenoura.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/bolo-minivulcao.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/bolo-minivulcao.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
+                    </div>
+                </div> 
+                <div class="cardapio-item">
+                    <p>Fatia de Brownie</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            O Brownie mais delicioso que você poderia encontrar no ifood esta aqui. Produzido com chocolate nobre e muito amora e carinho.
+                        </span>
+                        <a class="galley__item" href="./assets/svg/icon-no-img.svg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/svg/icon-no-img.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$7,5</span>
+                    </div>
+                </div>   
+                
             </div>
             <div class="cardapio-cake cardapio-order-seventh">
                 <h3>Bolos de Pote aprox. 250g</h3>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Brigadeiro com Morango, gostaria de mais informações." >
-                    <p>Bolo no pote - Brigadeiro com Morango<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $11
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Brigadeiro com Morango</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de chocolate, recheio de brigadeiro de panela e pedaços de morango com granulado tradicional.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-brigadeiro-morango.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-brigadeiro-morango.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Ninho com Morango, gostaria de mais informações." >
-                    <p>Bolo no pote - Ninho com Morango<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $11
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Brigadeiro, gostaria de mais informações." >
-                    <p>Bolo no pote - Brigadeiro<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $11
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Ninho com Morango</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa branca recheio de Ninho e pedaços de morangos.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-ninho-morango-nutella.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-ninho-morango-nutella.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Choconinho, gostaria de mais informações." >
-                    <p>Bolo no pote - Choconinho<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $11
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Maracujá Com Chocolate, gostaria de mais informações." >
-                    <p>Bolo no pote - Maracujá Com Chocolate<span class="cardapio-option"> </span></p>
-                    <div class="">
-                        $11
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Brigadeiro</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de chocolate, recheio de brigadeiro de panela e granulado tradicional.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-brigadeiro.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-brigadeiro.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Ninho com Brigadeiro, gostaria de mais informações." >
-                    <p>Bolo no pote - Ninho com Brigadeiro<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $11
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Maracujá com Massa Branca, gostaria de mais informações." >
-                    <p>Bolo no pote - Maracujá com Massa Branca<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $11
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Choconinho com Morango</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de chocolate e recheio de Ninho com pedaços de morango.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-choconinho.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-choconinho.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Ninho Trufado com Nutella, gostaria de mais informações." >
-                    <p>Bolo no pote - Ninho Trufado com Nutella<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $11
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$12</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Cenoura com brigadeiro, gostaria de mais informações." >
-                    <p>Bolo no pote - Cenoura com brigadeiro<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $12
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Cenoura com Brigadeiro</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de chocolate e recheio de Ninho com pedaços de morango.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-cenoura.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-cenoura.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Choconinho com Morango, gostaria de mais informações." >
-                    <p>Bolo no pote - Choconinho com Morango<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $12
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$12</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Ninho com Nutella e Morango, gostaria de mais informações." >
-                    <p>Bolo no pote - Ninho com Nutella e Morango<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $13
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Choconinho</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de chocolate e recheio de Ninho.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-choconinho.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-choconinho.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Especial Red Velvet e Cream Cheese, gostaria de mais informações." >
-                    <p>Bolo no pote - Especial Red Velvet e Cream Cheese<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $15
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Ninho, gostaria de mais informações." >
-                    <p>Bolo no pote - Ninho<span class="cardapio-option"> </span></p>
-                    <div class="">
-                        $11
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Ninho com Nutella e Morango</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa branca recheio de Ninho, com Nutella Original e pedaços de morangos.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-ninho-morango-nutella.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-ninho-morango-nutella.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Prestígio, gostaria de mais informações." >
-                    <p>Bolo no pote - Prestígio<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $11
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$13</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Limão Suíço, gostaria de mais informações." >
-                    <p>Bolo no pote - Limão Suíço<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $11
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no Pote - Especial Red Velvet e Cream Cheese</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa Red Velvet a base de iogurte, com Cream Cheese Original e uma deliciosa geleia artesanal de frutas vermelhas. Esse é de comer de joelhos.
+                        </span>
+                        <a class="galley__item" href="./assets/svg/icon-no-img.svg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/svg/icon-no-img.svg" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo no pote - Sensação, gostaria de mais informações." >
-                    <p>Bolo no pote - Sensação<span class="cardapio-option"></span></p>
-                    <div class="">
-                        $11
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$15</span>
                     </div>
-                </a>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Maracujá Com Chocolate</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de chocolate, recheio de mousse de maracujá, cobertura de brigadeiro.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-maracuja.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-maracuja.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Ninho</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de cbranca, recheio de Ninho. 
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-ninho.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-ninho.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Ninho com Brigadeiro</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de chocolate, recheio de brigadeiro e recheio de Ninho.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-choconinho.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-choconinho.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Prestígio</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa especial de chocolate, recheio de Prestígio e saborosa cobertura de chocolate.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/pote-prestigio.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/pote-prestigio.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Maracujá com Massa Branca</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de pão de ló, recheio de mousse de maracujá, cobertura de chantilly.
+                        </span>
+                        <a class="galley__item" href="./assets/svg/icon-no-img.svg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/svg/icon-no-img.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Limão Suíço</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa branca, mousse de limão.
+                        </span>
+                        <a class="galley__item" href="./assets/svg/icon-no-img.svg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/svg/icon-no-img.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
+                    </div>
+                </div> 
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Ninho trufado com Nutella</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Bolo no pote com recheio de Ninho trufado com Nutella Original.
+                        </span>
+                        <a class="galley__item" href="./assets/svg/icon-no-img.svg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/svg/icon-no-img.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
+                    </div>
+                </div> 
+                <div class="cardapio-item">
+                    <p>Bolo de pote - Negresco</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa branca de pão de ló e um delicioso recheio de Ninho, com biscoito Negresco.
+                        </span>
+                        <a class="galley__item" href="./assets/svg/icon-no-img.svg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/svg/icon-no-img.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
+                    </div>
+                </div> 
+                <div class="cardapio-item">
+                    <p>Bolo no pote - Sensação</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Massa de chocolate, um sensacional mousse de morango, e pedaços de chocolate.
+                        </span>
+                        <a class="galley__item" href="./assets/svg/icon-no-img.svg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/svg/icon-no-img.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$11</span>
+                    </div>
+                </div> 
             </div>
             <div class="cardapio-cake cardapio-order-seventh">
-                <h3>Presenteáveis</h3>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bento Cake(350g), gostaria de mais informações." >
-                    <p>Bento Cake<span class="cardapio-option">(350g)</span></p>
-                    <div class="">
-                        <span class="cardapio-option"></span>$35,9
+                <h3>Brownies</h3>
+                <div class="cardapio-item">
+                    <p>Brownie Com Sorvete</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Uma deliciosa combinação composta por duas camadas de brownie com o nosso saboroso recheio de moça cremosa, Nutella uma generosa porção de morangos selecionados (picados) e uma bola de sorvete de creme. (O sorvete vai separado para que você posso adiciona-lo) (Imagem real do produto servido na loja.)
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/brownie-sorvete.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/brownie-sorvete.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo pelo Bento Cake(500g), gostaria de mais informações." >
-                    <p>Bento Cake<span class="cardapio-option">(500g)</span></p>
-                    <div class="">
-                        <span class="cardapio-option"></span>$60
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$22</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bento Cake Coração, gostaria de mais informações." >
-                    <p>Bento Cake Coração<span class="cardapio-option">(350g)</span></p>
-                    <div class="">
-                        $51,9
+                </div>
+                <div class="cardapio-item">
+                    <p>Brownie com Cobertura</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            O Brownie mais delicioso que você poderia encontrar no ifood esta aqui. Produzido com chocolate nobre e muito amora e carinho.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/brownie-cobertura.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/brownie-cobertura.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Mini Nacked, gostaria de mais informações." >
-                    <p>Mini Nacked<span class="cardapio-option"></span></p>
-                    <div class="">
-                        <span class="cardapio-option"></span>$50
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$14</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Caixa Coração Florido, gostaria de mais informações." >
-                    <p>Caixa Coração Florido<span class="cardapio-option">10 Brigadeiros Gourmet</span></p>
-                    <div class="">
-                        <span class="cardapio-option"></span>$45
+                </div>
+                <h3>Brigadeiros</h3>
+                <div class="cardapio-item">
+                    <p>Brigadeiros (unidades)</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            O tradicional brigadeiro que em festa alguma pode faltar! Produção totalmente artesanal, elaborados com produtos da ais alta qualidade. Peso aproximado de cada unidade é de 22 gramas.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/brigadeiros.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/brigadeiros.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Caixa Você me completa, gostaria de mais informações." >
-                    <p>Caixa Você me completa<span class="cardapio-option">08 Brigadeiros gourmet</span></p>
-                    <div class="">
-                        <span class="cardapio-option"></span> $35
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$7</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Caixa - (Te Amo), gostaria de mais informações." >
-                    <p>Caixa - (Te Amo)<span class="cardapio-option">12 brigadeiros + Docinhos</span></p>
-                    <div class="">
-                        $35
+                </div>
+                <div class="cardapio-item">
+                    <p>Caixa 15 brigadeiros + 15 Beijinhos</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            A combinação perfeita com gostinho de festa, beijinho e brigadeiro. (caixa com 30 unid. Peso aproximado cada unidade 18g)
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/brigadeiros-15.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/brigadeiros-15.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Mimo para presente, gostaria de mais informações." >
-                    <p>Mimo para presente<span class="cardapio-option">4 brigadeiros, 4 beijinhos e 4 ninhos</span></p>
-                    <div class="">
-                        $30
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$47,9</span>
                     </div>
-                </a>
-                <a class="cardapio-item" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pela Festa na caixa, gostaria de mais informações." >
-                    <p>Festa na caixa<span class="cardapio-option">Item Sob Encomenda (somente serão aceitos pedidos agendado com no mínimo 24hr de antecedência.) Festa na caixa para 1 pessoa 1 Bolo Naked Cake 500 gr 12 Docinhos (Opcional frase Eu Te Amo) 2 Coca Cola 310 ml 2 Taça de acrílico 1 Bexiga de Coração 1 kit descartáveis para 2 Pessoas 1 Caixa decorada.</span></p>
-                    <div class="">
-                        $195
+                </div>
+                <div class="cardapio-item">
+                    <p>Caixa 15 brigadeiros + 15 Beijinhos</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            A combinação perfeita com gostinho de festa, beijinho e brigadeiro. (caixa com 30 unid. Peso aproximado cada unidade 18g)
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/beijinhos-30.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/beijinhos-30.png" alt="">
+                            </div>
+                        </a>
                     </div>
-                </a>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$47,9</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Caixa 30 brigadeiros de Ninho</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            Maravilhoso brigadeiro de Ninho. Feito artesanalmente com o verdadeiro Ninho. (caixa com 30 unid. Peso aproximado cada unidade 18g)
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/brigadeiro-ninho.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/brigadeiro-ninho.jpeg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$47,9</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Caixa 30 brigadeiros</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            E queridinho de todos, brigadeiro tradicional de chocolate. (caixa com 30 unid. Peso aproximado cada unidade 18g)
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/brigadeiros-30.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/brigadeiros-30.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$47,9</span>
+                    </div>
+                </div>
+                <div class="cardapio-item">
+                    <p>Caixa 100 brigadeiros</p>
+                    <div class="cardapio-info">
+                        <span class="cardapio-option">
+                            O tradicional brigadeiro que em festa alguma pode faltar! Produção totalmente artesanal, elaborados com produtos da ais alta qualidade. Peso aproximado de cada unidade é 18 gramas. Ao Fazer O Pedido Lhe Chamaremos No Chat Para Combinar Horario De Entrega, Pois Os Docinhos Sao Enrrolados Na Hora.
+                        </span>
+                        <a class="galley__item" href="./assets/img-doces/brigadeiros-30.png" data-lightbox="mygallery" data-title="Bolo Caserinho Piscina">
+                            <div class="cardapio-img">
+                                <img class="gallery-img" src="./assets/img-doces/brigadeiros-30.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cardapio-bottom">
+                        <a class="cardapio-button" target="_blank" href="https://api.whatsapp.com/send?phone=5519982756900&text=Olá!! Me interessei pelo Bolo(caseirinho) de Limão, gostaria de mais informações." >
+                            Fazer Pedido
+                        </a>
+                        <span class="cardapio-price">$120</span>
+                    </div>
+                </div>
             </div>
             <div class="cardapio-cake cardapio-order-seventh">
                 <h3>Bebidas</h3>
@@ -910,7 +1792,6 @@
                         $30
                     </div>
                 </a>
-                <img class="carapio-logo" src="./assets/svg/dgustlogo.svg" alt="">
             </div>
             <div class="cardapio-obs cardapio-order-seventh">
                 <p class="cardapio-atencao">OS VALORES DESTE CARDÁPIO SÃO VÁLIDOS APENAS PARA PEDIDOS VIA WHATSAPP E CONSUMO NA LOJA.</p>
@@ -981,18 +1862,7 @@
                 <a class="galley__item" href="./assets/img-doces/bolo-decorado-15.jpeg" data-lightbox="mygallery" data-title="Bolo Decorado">
                     <img class="gallery-img" src="./assets/img-doces/bolo-decorado-15.jpeg" alt="">
                 </a>
-                <a class="galley__item" href="./assets/img-doces/bolo-cenoura.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Cenoura">
-                    <img class="gallery-img" src="./assets/img-doces/bolo-cenoura.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/bolos-caserinho.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Limão">
-                    <img class="gallery-img" src="./assets/img-doces/bolos-caserinho.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/bolo-vulcao.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Vulcão">
-                    <img class="gallery-img" src="./assets/img-doces/bolo-vulcao.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/bolo-caserinho-fuba-goiabada.jpeg" data-lightbox="mygallery" data-title="Bolo Caserinho Fuba com Goiabada">
-                    <img class="gallery-img" src="./assets/img-doces/bolo-caserinho-fuba-goiabada.jpeg" alt="">
-                </a>
+                
                 <a class="galley__item" href="./assets/img-doces/bolo-bentocake1.jpeg" data-lightbox="mygallery" data-title="Bolo Bento Cake">
                     <img class="gallery-img" src="./assets/img-doces/bolo-bentocake1.jpeg" alt="">
                 </a>
@@ -1020,30 +1890,7 @@
                 <a class="galley__item" href="./assets/img-doces/bolo-pote4.jpeg" data-lightbox="mygallery" data-title="Bolo de pote">
                     <img class="gallery-img" src="./assets/img-doces/bolo-pote4.jpeg" alt="">
                 </a>
-                <a class="galley__item" href="./assets/img-doces/copo-felicidade-explosaouva.jpeg" data-lightbox="mygallery" data-title="Copo Felicidade Explosão Uva">
-                    <img class="gallery-img" src="./assets/img-doces/copo-felicidade-explosaouva.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/copo-felicidade-ferrero.jpeg" data-lightbox="mygallery" data-title="Copo Felicidade Ferrero Rocher">
-                    <img class="gallery-img" src="./assets/img-doces/copo-felicidade-ferrero.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/copo-felicidade-kinderbueno.jpeg" data-lightbox="mygallery" data-title="Copo Felicidade Kinder Bueno">
-                    <img class="gallery-img" src="./assets/img-doces/copo-felicidade-kinderbueno.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/copo-felicidade-morango.jpeg" data-lightbox="mygallery" data-title="Copo Felicidade Morango">
-                    <img class="gallery-img" src="./assets/img-doces/copo-felicidade-morango.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/copo-felicidade-oreo.jpeg" data-lightbox="mygallery" data-title="Copo Felicidade Oreo">
-                    <img class="gallery-img" src="./assets/img-doces/copo-felicidade-oreo.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/copo-kitkat.jpeg" data-lightbox="mygallery" data-title="Copo Felicidade Kitkat">
-                    <img class="gallery-img" src="./assets/img-doces/copo-kitkat.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/copo-tropical.jpeg" data-lightbox="mygallery" data-title="Copo Felicidade Tropical">
-                    <img class="gallery-img" src="./assets/img-doces/copo-tropical.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/cone-trufado.jpeg" data-lightbox="mygallery" data-title="Cone Trufado">
-                    <img class="gallery-img" src="./assets/img-doces/cone-trufado.jpeg" alt="">
-                </a>
+                
                 <a class="galley__item" href="./assets/img-doces/bombom-aberto-morango.jpeg" data-lightbox="mygallery" data-title="Bombom Aberto Morango">
                     <img class="gallery-img" src="./assets/img-doces/bombom-aberto-morango.jpeg" alt="">
                 </a>
@@ -1089,15 +1936,7 @@
                 <a class="galley__item" href="./assets/img-doces/doces-variados.jpeg" data-lightbox="mygallery" data-title="Docinhos Variados">
                     <img class="gallery-img" src="./assets/img-doces/doces-variados.jpeg" alt="">
                 </a>
-                <a class="galley__item" href="./assets/img-doces/Fatia-Supreme Red-Velvet.jpeg" data-lightbox="mygallery" data-title="Fatia Supreme Red Velvet">
-                    <img class="gallery-img" src="./assets/img-doces/Fatia-Supreme Red-Velvet.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/fatia-supreme.jpeg" data-lightbox="mygallery" data-title="Fatia Supreme">
-                    <img class="gallery-img" src="./assets/img-doces/fatia-supreme.jpeg" alt="">
-                </a>
-                <a class="galley__item" href="./assets/img-doces/fatiaredvelvetcreamcheese.jpeg" data-lightbox="mygallery" data-title="Fatia Red Velvet com Cream Cheese">
-                    <img class="gallery-img" src="./assets/img-doces/fatiaredvelvetcreamcheese.jpeg" alt="">
-                </a>
+                
                 <a class="galley__item" href="./assets/img-doces/mini-pudim.jpeg" data-lightbox="mygallery" data-title="Mini Pudim">
                     <img class="gallery-img" src="./assets/img-doces/mini-pudim.jpeg" alt="">
                 </a>
