@@ -466,6 +466,7 @@ img.home-iconwhats {
     justify-content: center;
     height: 100%;
     max-width: 1100px;
+    overflow-x: hidden;
     margin: 0 auto;
 }
 
@@ -478,6 +479,7 @@ img.home-iconwhats {
     height: 400px;
     max-width: 400px;
     object-fit: cover;
+
 }
 
 .cardapio-indice-btn {
