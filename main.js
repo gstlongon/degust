@@ -93,9 +93,10 @@ scrollReveal.reveal(
 
 /* Botão voltar para o topo */
 const backToTopButton = document.querySelector('.back-to-top')
+const cardapio = document.getElementById('cardapio')
 
 function backToTop() {
-  if (window.scrollY >= 560) {
+  if (window.pageYOffset >= cardapio.offsetTop) {
     backToTopButton.classList.add('show')
   } else {
     backToTopButton.classList.remove('show')
