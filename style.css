@@ -514,7 +514,7 @@ img.home-iconwhats {
     height: 100%;
     filter: brightness(0.3);
     position: absolute;
-    animation: opacity-efect 8s ease-in alternate;
+    animation: opacity-efect 14s ease-in alternate;
     animation-iteration-count: infinite;
 }
 
