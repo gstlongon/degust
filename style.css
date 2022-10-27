@@ -458,7 +458,7 @@ img.home-iconwhats {
 
 #cardapio {
     background-image: linear-gradient(0.25turn, #333, #000000);
-}
+} 
 
 .cardapio-indice {
     width: 100%;
@@ -490,20 +490,24 @@ img.home-iconwhats {
 }
 
 .indice-btn {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
     margin: 15px auto;
     padding: 10px;
     color: var(--title-color);
-    max-width: 180px;
-    border: 1px dashed var(--title-color);
+    max-width: 225px;
+    border: 3px solid var(--title-color);
     border-radius: 10px;
     transition: .3s;
 }
 
 .indice-btn:hover {
     transform: translatex(3px);
-    color: #ffff00;
-    border: 1px dashed #ffff00;
+    color: #7bff009f;
+    border: 4px solid #7bff009f;
 }
 
 .cardpio-card-img {
@@ -514,7 +518,7 @@ img.home-iconwhats {
     height: 100%;
     filter: brightness(0.3);
     position: absolute;
-    animation: opacity-efect 14s ease-in alternate;
+    animation: opacity-efect 7s ease-in alternate;
     animation-iteration-count: infinite;
 }
 
@@ -642,8 +646,8 @@ img.home-iconwhats {
 }
 
 .cardapio-item:hover {
-    background-color: #333;
-    color: #FFF;
+    background-color: rgb(51, 35, 0);
+    color: rgb(226, 155, 1);
     border: none;
     border-radius: 10px;
     transform: translateX(5px);
@@ -710,6 +714,13 @@ img.home-iconwhats {
 #trabalho .title {
     display: flex;
     justify-content: center;
+}
+
+.gallery-work-img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 7px;
 }
 
 
