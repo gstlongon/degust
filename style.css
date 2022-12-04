@@ -314,20 +314,20 @@ nav.show div.icon-close {
 
 @keyframes opacity-efect {
     0% {
-        transform: translatey(100%);
+        transform: translateX(100%);
         opacity: 0;
     }
 
     
 
     50% {
-        transform: translatey(80%);
+        transform: translateX(80%);
         opacity: 0;
 
     }
  
     100% {
-        transform: translatey(-50%);
+        transform: translateX(-50%);
         opacity: 1;
 
     }
@@ -552,12 +552,11 @@ img.home-iconwhats {
 .cardpio-card-img {
     width: 100%;
     z-index: 0;
-    max-width: 400px;
     max-height: 600px;
     height: 100%;
     filter: brightness(0.3);
     position: absolute;
-    animation: opacity-efect 7s ease-in alternate;
+    animation: opacity-efect 12s ease-in alternate;
     animation-iteration-count: infinite;
 }
 
