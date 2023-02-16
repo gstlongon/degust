@@ -439,7 +439,7 @@ img.home-iconwhats {
 }
 
 #about .container {
-  margin: 0;
+  margin: 0 auto;
 }
 
 #about .image {
@@ -449,7 +449,12 @@ img.home-iconwhats {
 .swiper-button-next,
 .swiper-button-prev {
     color: var(--title-color);
-} 
+}
+
+.swiper {
+    width: 100%;
+}
+
 
 .swiper-pagination-about {
     display: flex;
@@ -485,19 +490,35 @@ img.home-iconwhats {
   padding: 3.625rem 2rem;
   box-shadow: 2px 2px 8px rgb(227, 252, 4);
   border-radius: 5px;
-  text-align: center;
+  text-align: left;
   background-color: #303030;
 }
 
 .card img {
     max-width: 60px;
+    display: block;
+    margin: 0 auto;
 }
 
 .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
+  text-align: center;
 }
 
+.servico__localizacao { 
+    color: var(--title-color);
+    text-decoration: underline;
+}
+
+.servico__pagamento {
+    margin-top: 10px;
+}
+
+.servico__pagamento li {
+    text-align: left;
+    margin-top: 5px;
+}
 /*====  CARDAPIO ============================ */
 
 #cardapio {
@@ -624,7 +645,6 @@ img.home-iconwhats {
     color: var(--title-color);
     font-weight: bold;
     width: 100%;
-    max-width: 500px;
     align-content: center;
     margin: 15px auto;
     border: 1px solid;
@@ -689,7 +709,6 @@ img.home-iconwhats {
     display: block;
     font-size: 12px;
     color: var(--text-color);
-    max-width: 300px;
 }
 
 .cardapio-item:hover {
@@ -1027,12 +1046,14 @@ footer .social a:hover {
   }
 
   /* about */
-  #about .grid {
+  #about {
     margin: 0 auto;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
 
   }
+
+  .swiper {
+    width: 800px;
+}
 
   /* services */
   .cards {
@@ -1045,9 +1066,14 @@ footer .social a:hover {
   }
 
   /* cardapio */
+
+  #cardapio {
+    grid-template-columns: 1fr;
+
+  }
   #cardapio .container {
     margin: 0 auto;
-    display: flex;
+    display: grid;
     gap: 30px;
   }
 
@@ -1098,3 +1124,85 @@ footer .social a:hover {
   }
 }
 /* medium devices: 767 > */
+
+
+/* ------------ CARDAPIO - PAGE ------------------ */
+
+
+.cardapio-body {
+    background-image: linear-gradient(0.25turn, #333, #000000, #303030);
+}
+
+.cardapio-voltar {
+    width: 100%;
+    display: flex;
+    padding: 20px 30px;
+    align-items: center;
+    color: #333;
+    background-color: var(--title-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cardapio-voltar-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.cardapio-content {
+    padding: 50px 30px;
+
+}
+
+.cardapio-aviso {
+    text-align: center;
+}
+
+.cardapio-convite {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 50px;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    background-color: var(--title-color);
+    padding: 10px 20px;
+}
+
+.cardapio-aviso h4 {
+    font-size: 20px;
+    color: var(--title-color);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.cardapio-body .cardapio-card {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.cardapio-body .cardapio-indice-btn {
+    max-width: 600px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardapio-body .cardapio-indice-btn .indice-btn {
+    max-width: max-content;
+    margin: 15px 15px;
+}
+
+.cardapio-body .cardapio-item {
+    max-width: 700px;
+}
+
+.cardapio-body .cardapio-cake h3 {
+    padding: 20px;
+}
